@@ -22,4 +22,4 @@ getCountOfOneNumbers = (L, R) => {
     return result }
 // # print(getCountOfSantiagoNumbers(0, 500))
 
-console.log(getCountOfOneNumbers(0, 500), getCountOfOneNumbers(0, 100));
+console.log(getCountOfOneNumbers(0, 500), getCountOfOneNumbers(0, 100)); // 111 12
