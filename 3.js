@@ -11,3 +11,15 @@ longest = (wordList) => { l = wordList[0].length, re = '';
 } return re; }
 console.log(longest(["The", "quick", "brown", "fox", "jumped", "over", "the", "lazy", "dog"]));
 // jumped
+
+getCountOfOneNumbers = (L, R) => {
+    result = 0;
+    while(L<=R){
+        // console.log(L.toString());
+        if (L.toString()[0] == '1') result += 1;
+            // print(L)
+        L += 1;}
+    return result }
+// # print(getCountOfSantiagoNumbers(0, 500))
+
+console.log(getCountOfOneNumbers(0, 500), getCountOfOneNumbers(0, 100));
