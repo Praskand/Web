@@ -9,4 +9,5 @@ longest = (wordList) => { l = wordList[0].length, re = '';
 	} else if (l == wi.length) { re = "null"; }
     // console.log(re);
 } return re; }
-console.log(longest(["The", "quick", "brown", "fox", "jumped", "over", "the", "lazy", "dog"]))
+console.log(longest(["The", "quick", "brown", "fox", "jumped", "over", "the", "lazy", "dog"]));
+// jumped
